@@ -1,0 +1,15 @@
+<!doctyoe HTML>
+<HTML>
+<head>
+<title> Inline CSS </title>
+<body>
+<body Style= "background-color: Lightblue";>
+<H1 style = "color:Red;">
+     Inline CSS  
+</H1>
+<p style = "color:Green">
+This is the <b> Study of inline CSS
+</b>
+</p>
+</body>
+</HTML>
