@@ -1,0 +1,29 @@
+<!doctyoe HTML>
+<HTML>
+<head>
+<title> Internal CSS </title>
+<style>
+body {background-color: Lightyellow;}
+H1 {color:Red;"}
+ p { color : black; }
+</style>
+</head>
+<body>
+<H1> internal CSS </H1>
+<p>This is the <b> Study of internal CSS
+</b>
+</p>
+</body>
+<body>
+<H1 style = "color:blue">
+ internal CSS in blue </H1>
+<p> this is <b> Study of internal CSS </b>
+</p>
+</body>
+<body>
+<H1>internal CSS in  next body </H1>
+<p style="color:blue>this is <b> Study of internal CSS </b></p>
+
+</body>
+
+</HTML>
