@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIU Nagpur Colleges</title>
+  <style>
+
+    .BOX {
+      background-color: mintcream;
+      padding: 20px;
+      width: 200px;
+      margin: 15px;
+      border: 1px solid lightblue;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 2px 3px 8px #999;
+    }
+
+    .cont {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+      color: darkblue;
+      text-align: center;
+    }
+
+    body {
+      background-color: #fce4d6;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    a {
+      color: #174a70;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #d2691e;
+      text-decoration: underline;
+    }
+
+    @media screen and (min-width: 600px) {
+      .cont {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+
+    #contact {
+      text-align: center;
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #fff8f0;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h2>Welcome to SIU Nagpur</h2>
+
+  <img src="https://sitnagpur.edu.in/images/infra1.webp"
+       height="200" width="600" alt="SIU Nagpur">
+
+  <h2 style="color: #8b4513">
+    Please visit us to enroll in any of our courses.
+  </h2>
+
+  <div class="cont">
+
+    <div class="BOX">
+      <a href="https://www.sibmnagpur.edu.in/" target="_blank">SIBM Nagpur</a>
+    </div>
+
+    <div class="BOX">
+      <a href="https://www.slsnagpur.edu.in/" target="_blank">SLS Nagpur</a>
+    </div>
+
+    <div class="BOX">
+      <a href="https://sitnagpur.edu.in/" target="_blank">SIT Nagpur</a>
+    </div>
+
+    <div class="BOX">
+      <a href="https://www.sidnagpur.edu.in/" target="_blank">SID Nagpur</a>
+    </div>
+
+  </div>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@siunagpur.edu.in</p>
+    <p>Phone: +91 12345 67890</p>
+  </section>
+
+</body>
+</html>
